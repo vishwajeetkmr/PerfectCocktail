@@ -35,7 +35,7 @@ function getCocktails(e){
         // Nothing exits
         ui.printMessage('There are no results', 'danger');
       } else {
-        console.log(cocktails);
+        ui.displayDrinksWithIngredients( cocktails.cocktails.drinks );
       }
     })
   }
